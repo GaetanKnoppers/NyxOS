@@ -1,0 +1,10 @@
+# Fichiers compilés
+*.o
+*.elf
+*.iso
+
+# Dossier ISO généré
+iso/boot/kernel.elf
+
+# VS Code
+.vscode/
