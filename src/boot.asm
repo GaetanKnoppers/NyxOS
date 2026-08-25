@@ -50,11 +50,8 @@ _start:
     jmp .loop
 
 print_string:
-    ; ESI = texte
-    ; EDI = position VGA de départ
-
-    mov ebp, edi            ; position de début de la ligne
-
+    mov ebp, edi
+    
 .next:
     lodsb
 
